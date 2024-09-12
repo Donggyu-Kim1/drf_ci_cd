@@ -36,6 +36,7 @@ jobs:
             git pull origin main
 
             source venv/bin/activate
+            cd drf_ci-cd
             pip install -r requirements.txt
             
             cd /home/ubuntu/app/drf_ci_cd/drf_ci-cd/drf_test
